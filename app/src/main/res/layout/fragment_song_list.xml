@@ -16,6 +16,8 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
         android:text="Temperature:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
         android:id="@+id/templabel"/>
 
     <TextView
@@ -28,6 +30,8 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/temperature"
+        android:textSize="18sp"
+        android:textColor="#ff0000"
         android:text="9.0C"/>
 
     <TextView
@@ -40,6 +44,8 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
         android:text="PH"
+        android:textSize="18sp"
+        android:textColor="@color/black"
         android:id="@+id/phlabel"/>
 
     <TextView
@@ -52,6 +58,8 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/ph"
+        android:textSize="18sp"
+        android:textColor="#009999"
         android:text="0.2"/>
 
     <TextView
@@ -63,6 +71,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
+        android:textSize="18sp"
+        android:textColor="@color/black"
         android:text="Turbidity"
         android:id="@+id/turblabel"/>
 
@@ -76,6 +86,8 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/turb"
+        android:textSize="18sp"
+        android:textColor="#880088"
         android:text="0.5"/>
     <TextView
         android:layout_width="0dp"
@@ -86,6 +98,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
+        android:textSize="18sp"
+        android:textColor="@color/black"
         android:text="Oxygen"
         android:id="@+id/oxylabel"/>
 
@@ -99,6 +113,8 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/oxy"
+        android:textSize="18sp"
+        android:textColor="#999900"
         android:text="92"/>
 
     <TextView
@@ -111,6 +127,8 @@
         app:layout_constraintHorizontal_bias="0"
         app:layout_constraintVertical_bias="0"
         android:text="TDS"
+        android:textSize="18sp"
+        android:textColor="@color/black"
         android:id="@+id/tdslabel"/>
 
     <TextView
@@ -123,6 +141,8 @@
         app:layout_constraintVertical_bias="0"
         app:layout_constraintHorizontal_bias="0"
         android:id="@+id/tds"
+        android:textSize="18sp"
+        android:textColor="#ae9678"
         android:text="15"/>
 
 
